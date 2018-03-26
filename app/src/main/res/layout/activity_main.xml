@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/question_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="55dp"
+        android:gravity="center"
+        android:text="question1"
+        android:textSize="20dp"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp"/>
+
+    <RadioButton
+        android:id="@+id/option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question_container"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:onClick="onRadioButtonClicked"
+        android:text="option1"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"/>
+
+
+    <RadioButton
+        android:id="@+id/option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/option1"
+        android:layout_centerHorizontal="true"
+        android:onClick="onRadioButtonClicked"
+        android:text="option2"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"/>
+
+    <RadioButton
+        android:id="@+id/option3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/option2"
+        android:layout_centerHorizontal="true"
+        android:onClick="onRadioButtonClicked"
+        android:text="option3"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"/>
+
+    <RadioButton
+        android:id="@+id/option4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/option3"
+        android:layout_centerHorizontal="true"
+        android:onClick="onRadioButtonClicked"
+        android:text="option4"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"/>
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/option4"
+        android:layout_alignParentRight="true"
+        android:background="@mipmap/nxt_button" />
+
+
+</RelativeLayout>
