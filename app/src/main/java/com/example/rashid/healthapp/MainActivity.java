@@ -9,20 +9,15 @@ import java.io.InputStream;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView question_container;
+    TextView tv_question;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        question_container = findViewById(R.id.question_container);
+        tv_question = (TextView) findViewById(R.id.question_container);
 
-        try {
-            InputStream is = getAssets().open("questionnaire.json");
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        tv_question.setText("hello");
     }
 }

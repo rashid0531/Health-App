@@ -23,7 +23,7 @@
         android:layout_below="@+id/question_container"
         android:layout_centerHorizontal="true"
         android:gravity="center"
-        android:onClick="onRadioButtonClicked"
+
         android:text="option1"
         android:paddingTop="25dp"
         android:paddingBottom="25dp"/>
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/option1"
         android:layout_centerHorizontal="true"
-        android:onClick="onRadioButtonClicked"
+
         android:text="option2"
         android:paddingTop="25dp"
         android:paddingBottom="25dp"/>
@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/option2"
         android:layout_centerHorizontal="true"
-        android:onClick="onRadioButtonClicked"
+
         android:text="option3"
         android:paddingTop="25dp"
         android:paddingBottom="25dp"/>
@@ -57,7 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/option3"
         android:layout_centerHorizontal="true"
-        android:onClick="onRadioButtonClicked"
+
         android:text="option4"
         android:paddingTop="25dp"
         android:paddingBottom="25dp"/>
@@ -66,9 +66,10 @@
         android:id="@+id/next_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="20dp"
         android:layout_below="@id/option4"
         android:layout_alignParentRight="true"
-        android:background="@mipmap/nxt_button" />
+        android:text="next" />
 
 
 </RelativeLayout>
